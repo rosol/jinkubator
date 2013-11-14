@@ -161,7 +161,7 @@ __indent.push('  ');
 menuElOut_mixin('http://www.google.com/calendar/render?cid=7dmp09fjl82d57m3dgu4gj020g@group.calendar.google.com', 'kalendarz');
 __indent.pop();
 __indent.push('  ');
-menuElOut_mixin('http://groups.google.com/group/jinkubator-admin/post?sendowner=1&hl=pl&pli=1' , 'kontakt');
+menuElOut_mixin('mailto:jinkubator-admin@googlegroups.com' , 'kontakt');
 __indent.pop();
 buf.push('\n</ul>');
 }
