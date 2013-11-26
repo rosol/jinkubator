@@ -118,7 +118,7 @@ var buf = [];
 with (locals || {}) {
 var interp;
 var __indent = [];
-buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h4>2 Spotkanie</h4>\n            <h2>Podstawy warsztatu projektowego</h2>\n            <h3>Adam Chudzik</h3>\n            <p>Termin: 12.11.2013, 18:15</p>\n            <p>Lokalizacja: s. 5440 MIMUW</p>\n            <h3>O prezentacji:</h3>\n            <p>Jako świeży deweloper trafiasz do nowego projektu i poza istniejącym kodem spada na Ciebie grad nazw, o których nikt nie wspominał na studiach:\n              <ul>\n                <li>git</li>\n                <li>gerrit</li>\n                <li>\n                   \n                  maven\n                </li>\n                <li>\n                   \n                  Jenkins\n                </li>\n              </ul>\n            </p>\n            <p>Na tej prezentacji postaram się oswoić powyższe pojęcia, pokazać podstawy pracy z współczesnym tymi narzędziami i rozwiązania dla typowych na początku problemów.</p>\n            <h3>O prelegencie:</h3>\n            <p>Adam Chudzik jest pracownikiem Działu Sieci Komputerowych (DSK) Uniwersytetu Warszawskiego. Za dnia dłubie w Javie, po zmroku nad (jak ma nadzieję) Kolejną-Wielką-Rzeczą!:) Adept Agile i Software Craftsmanship.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
+buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h4>2 Spotkanie</h4>\n            <h2>Podstawy warsztatu projektowego</h2>\n            <h3>Adam Chudzik</h3>\n            <p>Termin: 12.11.2013, 18:15</p>\n            <p>Lokalizacja: s. 5440 MIMUW</p>\n            <h3>O prezentacji:</h3>\n            <p>Jako świeży deweloper trafiasz do nowego projektu i poza istniejącym kodem spada na Ciebie grad nazw, o których nikt nie wspominał na studiach:\n              <ul>\n                <li>git</li>\n                <li>gerrit</li>\n                <li>\n                   \n                  maven\n                </li>\n                <li>\n                   \n                  Jenkins\n                </li>\n              </ul>\n            </p>\n            <p>Na tej prezentacji postaram się oswoić powyższe pojęcia, pokazać podstawy pracy z współczesnym tymi narzędziami i rozwiązania dla typowych na początku problemów.</p>\n            <h3>O prelegencie:</h3>\n            <p>Adam Chudzik jest pracownikiem Działu Sieci Komputerowych (DSK) Uniwersytetu Warszawskiego. Za dnia dłubie w Javie, po zmroku nad (jak ma nadzieję) Kolejną-Wielką-Rzeczą!:) Adept Agile i Software Craftsmanship.</p>\n            <p>\n               \n              <iframe width="853" height="480" src="http://www.youtube.com/embed/fq8DOKrTIh0" frameborder="0" allowfullscreen></iframe>\n            </p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge) {
@@ -409,17 +409,17 @@ prelegent_mixin.call({
 block: function(){
 buf.push('\n');
 buf.push.apply(buf, __indent);
-buf.push('<p>Z wykształcenia matematyk, obecnie programista Groovy z 7-letnim doświadczeniem w Javowych technologiach. Przekonany i stosujący się do zasad TDD. Obecnie pracuje nad open-sourcowym, opartym o gradle, build systemem dla aplikacji mobilnych. Zawodowo związany z firmą Polidea. Na tegorocznej Warsjawie prowadził szkolenie z gradle.</p>\n');
+buf.push('<p>Michał Lewandowski - pracuje w jedynej słusznej firmie, czyli w TouK. Świeżo upieczony absolwent. Na codzień developuje w Javie, z odchyłami w kierunku Grooviego. Po godzinach ciągnie go trochę w kierunku Scali, ale też poza JVM\'a. Intrugują go też wszystkie te Adżajlowe praktyki. Zwolennik (ale nie fanatyk) systemu z nadgryzionym jabłkiem, ale wróg JaTelefonów. Jak nie siedzi przy komputerze, ogląda się za dziełami sztuki w formie klasycznej motoryzacji.</p>\n');
 buf.push.apply(buf, __indent);
 buf.push('<h4>Poprowadzone spotkania</h4>\n');
 buf.push.apply(buf, __indent);
 buf.push('<ul> \n  ');
 buf.push.apply(buf, __indent);
-buf.push('<li><a href="#/meeting/1">1. Łagodne wprowadzenie do Maven</a></li>\n');
+buf.push('<li><a href="#/meeting/3">3. GIT - krok po kroku</a></li>\n');
 buf.push.apply(buf, __indent);
 buf.push('</ul>');
 }
-}, "Arkadiusz Konior", "arkadiusz_konior");
+}, "Michał Lewandowski", "michal_lewandowski");
 __indent.pop();
 __indent.push('            ');
 prelegent_mixin.call({
@@ -437,6 +437,23 @@ buf.push.apply(buf, __indent);
 buf.push('</ul>');
 }
 }, "Adam Chudzik", "adam_chudzik");
+__indent.pop();
+__indent.push('            ');
+prelegent_mixin.call({
+block: function(){
+buf.push('\n');
+buf.push.apply(buf, __indent);
+buf.push('<p>Z wykształcenia matematyk, obecnie programista Groovy z 7-letnim doświadczeniem w Javowych technologiach. Przekonany i stosujący się do zasad TDD. Obecnie pracuje nad open-sourcowym, opartym o gradle, build systemem dla aplikacji mobilnych. Zawodowo związany z firmą Polidea. Na tegorocznej Warsjawie prowadził szkolenie z gradle.</p>\n');
+buf.push.apply(buf, __indent);
+buf.push('<h4>Poprowadzone spotkania</h4>\n');
+buf.push.apply(buf, __indent);
+buf.push('<ul> \n  ');
+buf.push.apply(buf, __indent);
+buf.push('<li><a href="#/meeting/1">1. Łagodne wprowadzenie do Maven</a></li>\n');
+buf.push.apply(buf, __indent);
+buf.push('</ul>');
+}
+}, "Arkadiusz Konior", "arkadiusz_konior");
 __indent.pop();
 buf.push('\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
 }
