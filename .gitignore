@@ -13,3 +13,4 @@ app/assets/partials/prelegent/*.html
 app/assets/partials/prelegent_meetings/*
 app/assets/partials/meeting/*.html
 *~
+app/assets/partials/*
