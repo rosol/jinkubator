@@ -37,23 +37,8 @@ html(lang='en', ng-app='app')
                                                 p loading...
                     div(ng-switch-when="main_page", ng-include=" 'partials/main_page.html' ", ui-animate)
                     div(ng-switch-when="prelegents", ng-include=" 'partials/prelegents.html' ", ui-animate)
-
-                    mixin meeting(id)
-                        div(ng-switch-when="meeting"+id, ng-include=" 'partials/meeting/"+id+".html' ", ui-animate)                    
-
-                    +meeting(1)
-                    +meeting(2)
-                    +meeting(3)
-                    +meeting(4)
-                    +meeting(5)
-                    +meeting(6)
-                    +meeting(7)
-                    +meeting(8)
-                    +meeting(9)
-                    +meeting(10)
-                    +meeting(11)
-                    +meeting(12)
-                    //{next_meetings}
+                    - for (var meeting_id = 1; meeting_id <= 12; meeting_id++)
+                        div(ng-switch-when="meeting" + meeting_id, ng-include!="'partials/meeting/".concat(meeting_id, ".html'"), ui-animate)
             .push
 
         .footer
