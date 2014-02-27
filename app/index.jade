@@ -37,7 +37,7 @@ html(lang='en', ng-app='app')
                                                 p loading...
                     div(ng-switch-when="main_page", ng-include=" 'partials/main_page.html' ", ui-animate)
                     div(ng-switch-when="prelegents", ng-include=" 'partials/prelegents.html' ", ui-animate)
-                    - for (var meeting_id = 1; meeting_id <= 12; meeting_id++)
+                    - for (var meeting_id = 1; meeting_id <= 13; meeting_id++)
                         div(ng-switch-when="meeting" + meeting_id, ng-include!="'partials/meeting/".concat(meeting_id, ".html'"), ui-animate)
             .push
 
