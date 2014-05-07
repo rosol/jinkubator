@@ -28,6 +28,11 @@ div(ng-controller="PageCtrl")
                                 .span9
                                     h3= name
                                     block
+                        
+                        +prelegent("Rafał Nagrodzki", "rafal_nagrodzki")
+                            include prelegent/rafal_nagrodzki
+                            h4 Poprowadzone spotkania
+                            include prelegent_meetings/rafal_nagrodzki 
 
                         +prelegent("Adam Dubiel", "adam_dubiel")
                             include prelegent/adam_dubiel
@@ -38,11 +43,6 @@ div(ng-controller="PageCtrl")
                             include prelegent/michal_lipski
                             h4 Poprowadzone spotkania
                             include prelegent_meetings/michal_lipski 
-
-                        +prelegent("Rafał Nagrodzki", "rafal_nagrodzki")
-                            include prelegent/rafal_nagrodzki
-                            h4 Poprowadzone spotkania
-                            include prelegent_meetings/rafal_nagrodzki 
 
                         +prelegent("Jakub Nabrdalik", "jakub_nabrdalik")
                             include prelegent/jakub_nabrdalik
