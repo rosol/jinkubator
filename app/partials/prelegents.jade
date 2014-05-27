@@ -29,6 +29,16 @@ div(ng-controller="PageCtrl")
                                     h3= name
                                     block
                         
+                        +prelegent("Dominik Przybysz", "dominik_przybysz")
+                            include prelegent/dominik_przybysz
+                            h4 Poprowadzone spotkania
+                            include prelegent_meetings/dominik_przybysz 
+
+                        +prelegent("Paweł Cesar Sanjuan Szklarz", "pawel_cesar_sanjuan_szklarz")
+                            include prelegent/pawel_cesar_sanjuan_szklarz
+                            h4 Poprowadzone spotkania
+                            include prelegent_meetings/pawel_cesar_sanjuan_szklarz 
+
                         +prelegent("Tomasz Nurkiewicz", "tomasz_nurkiewicz")
                             include prelegent/tomasz_nurkiewicz
                             h4 Poprowadzone spotkania
