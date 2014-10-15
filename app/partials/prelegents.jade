@@ -6,7 +6,7 @@ div(ng-controller="PageCtrl")
                     #top.span12
                         h1 Prelegenci
                         h2 Zostań prelegentem
-                        p Jeżeli masz ochotę pokazać coś trochę mniej doświadczonym programistom to zachęcamy do zgłaszania tematów w 
+                        p Jeżeli masz ochotę pokazać coś trochę mniej doświadczonym programistom to zachęcamy do zgłaszania tematów w
                             a(href="https://docs.google.com/forms/d/1Zt_ws-STBfDESwI1rzhBmKcbWPQnGtsvRnIksESl2BI/viewform") formularzu
                             | . Na zaproponowane tam tematy odpisujemy układając agendy kolejnych spotkań, więc prosimy nie przejmuj się, gdy przez jakiś czas nie odpowiadamy na zamieszczane tam tematy - my naprawdę o nich pamiętamy :).
                         p Preferowane przez nas tematy kręcą się wokół Javy - bibliotek frameworków. W szczególności:
@@ -17,7 +17,7 @@ div(ng-controller="PageCtrl")
                                 li: span dobre środowisko programistyczne - używanie IDE, maven/gradle, continous integration, system kontroli wersji
                                 li: span testowanie oprogramowania
                                 li: span “okolice" programowania - planowanie kariery, możliwe ścieżki rozwoju itp.
-                  
+
                         div.fixedHeight
                         h2 Nasi prelegenci
 
@@ -28,31 +28,36 @@ div(ng-controller="PageCtrl")
                                 .span9
                                     h3= name
                                     block
-                        
+
+                        +prelegent("Dawid Kublik", "dawid_kublik")
+                            include prelegent/dawid_kublik
+                            h4 Poprowadzone spotkania
+                            include prelegent_meetings/dawid_kublik
+
                         +prelegent("Dominik Przybysz", "dominik_przybysz")
                             include prelegent/dominik_przybysz
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/dominik_przybysz 
+                            include prelegent_meetings/dominik_przybysz
 
                         +prelegent("Paweł Cesar Sanjuan Szklarz", "pawel_cesar_sanjuan_szklarz")
                             include prelegent/pawel_cesar_sanjuan_szklarz
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/pawel_cesar_sanjuan_szklarz 
+                            include prelegent_meetings/pawel_cesar_sanjuan_szklarz
 
                         +prelegent("Tomasz Nurkiewicz", "tomasz_nurkiewicz")
                             include prelegent/tomasz_nurkiewicz
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/tomasz_nurkiewicz 
+                            include prelegent_meetings/tomasz_nurkiewicz
 
                         +prelegent("Tugdual Grall", "tugdual_grall")
                             include prelegent/tugdual_grall
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/tugdual_grall 
+                            include prelegent_meetings/tugdual_grall
 
                         +prelegent("Rafał Nagrodzki", "rafal_nagrodzki")
                             include prelegent/rafal_nagrodzki
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/rafal_nagrodzki 
+                            include prelegent_meetings/rafal_nagrodzki
 
                         +prelegent("Adam Dubiel", "adam_dubiel")
                             include prelegent/adam_dubiel
@@ -62,17 +67,17 @@ div(ng-controller="PageCtrl")
                         +prelegent("Michał Lipski", "michal_lipski")
                             include prelegent/michal_lipski
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/michal_lipski 
+                            include prelegent_meetings/michal_lipski
 
                         +prelegent("Jakub Nabrdalik", "jakub_nabrdalik")
                             include prelegent/jakub_nabrdalik
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/jakub_nabrdalik 
+                            include prelegent_meetings/jakub_nabrdalik
 
                         +prelegent("Marcin Zajączkowski", "marcin_zajaczkowski")
                             include prelegent/marcin_zajaczkowski
                             h4 Poprowadzone spotkania
-                            include prelegent_meetings/marcin_zajaczkowski                        
+                            include prelegent_meetings/marcin_zajaczkowski
 
                         +prelegent("Adam Pierzchała", "adam_pierzchala")
                             include prelegent/adam_pierzchala
