@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"adam",
+				"adam_pierzchala"
+			],
+			[
 				"LEFT",
 				"left_arrow"
 			],
@@ -307,7 +311,7 @@
 			"file": "app/partials/main_page_parts/about.jade",
 			"settings":
 			{
-				"buffer_size": 3644,
+				"buffer_size": 3818,
 				"line_ending": "Unix"
 			}
 		},
@@ -315,7 +319,31 @@
 			"file": "app/partials/main_page_parts/meetings.jade",
 			"settings":
 			{
-				"buffer_size": 4784,
+				"buffer_size": 4947,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/prelegent/adam_pierzchala.jade",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/meeting/19.jade",
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/prelegent_meetings/adam_pierzchala.jade",
+			"settings":
+			{
+				"buffer_size": 91,
 				"line_ending": "Unix"
 			}
 		}
@@ -626,6 +654,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"18",
 			"meeting",
 			"b",
 			"400px",
@@ -717,7 +746,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -741,7 +770,7 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 396.0,
+						"translation.y": 484.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -758,8 +787,8 @@
 						"selection":
 						[
 							[
-								634,
-								634
+								471,
+								471
 							]
 						],
 						"settings":
@@ -777,15 +806,15 @@
 					"file": "app/partials/main_page_parts/about.jade",
 					"settings":
 					{
-						"buffer_size": 3644,
+						"buffer_size": 3818,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1863,
-								1863
+								1983,
+								1983
 							]
 						],
 						"settings":
@@ -793,7 +822,7 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 330.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -803,15 +832,93 @@
 					"file": "app/partials/main_page_parts/meetings.jade",
 					"settings":
 					{
-						"buffer_size": 4784,
+						"buffer_size": 4947,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								488,
-								488
+								662,
+								662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/partials/prelegent/adam_pierzchala.jade",
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 1935.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/partials/meeting/19.jade",
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								860,
+								860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/partials/prelegent_meetings/adam_pierzchala.jade",
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
 							]
 						],
 						"settings":
