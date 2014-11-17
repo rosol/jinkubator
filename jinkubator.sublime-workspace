@@ -346,6 +346,14 @@
 				"buffer_size": 91,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "app/partials/prelegents.jade",
+			"settings":
+			{
+				"buffer_size": 6423,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -746,7 +754,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -770,7 +778,7 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 484.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -919,6 +927,32 @@
 							[
 								91,
 								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/partials/prelegents.jade",
+					"settings":
+					{
+						"buffer_size": 6423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
 							]
 						],
 						"settings":
