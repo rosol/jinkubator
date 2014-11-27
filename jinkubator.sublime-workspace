@@ -319,7 +319,7 @@
 			"file": "app/partials/meeting/20.jade",
 			"settings":
 			{
-				"buffer_size": 1249,
+				"buffer_size": 1585,
 				"line_ending": "Unix"
 			}
 		},
@@ -344,6 +344,22 @@
 			"settings":
 			{
 				"buffer_size": 6696,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/meeting/19.jade",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/meeting/18.jade",
+			"settings":
+			{
+				"buffer_size": 2442,
 				"line_ending": "Unix"
 			}
 		}
@@ -746,7 +762,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -787,8 +803,8 @@
 						"selection":
 						[
 							[
-								1864,
-								1864
+								2410,
+								2410
 							]
 						],
 						"settings":
@@ -796,7 +812,7 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 330.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -821,7 +837,7 @@
 						{
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
-						"translation.x": 20.0,
+						"translation.x": 51.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -832,23 +848,23 @@
 					"file": "app/partials/meeting/20.jade",
 					"settings":
 					{
-						"buffer_size": 1249,
+						"buffer_size": 1585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1231,
-								1231
+								494,
+								494
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 92.0,
+						"translation.y": 13.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -926,7 +942,59 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 396.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/partials/meeting/19.jade",
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 753.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/partials/meeting/18.jade",
+					"settings":
+					{
+						"buffer_size": 2442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 144.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
