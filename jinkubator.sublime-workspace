@@ -300,18 +300,10 @@
 			}
 		},
 		{
-			"file": "app/partials/meeting/18.jade",
-			"settings":
-			{
-				"buffer_size": 1799,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/partials/main_page_parts/about.jade",
 			"settings":
 			{
-				"buffer_size": 3818,
+				"buffer_size": 3832,
 				"line_ending": "Unix"
 			}
 		},
@@ -319,31 +311,31 @@
 			"file": "app/partials/main_page_parts/meetings.jade",
 			"settings":
 			{
-				"buffer_size": 4947,
+				"buffer_size": 5156,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/partials/prelegent/adam_pierzchala.jade",
+			"file": "app/partials/meeting/20.jade",
 			"settings":
 			{
-				"buffer_size": 317,
+				"buffer_size": 1249,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/partials/meeting/19.jade",
+			"file": "app/partials/prelegent/marcin_grzejszczak.jade",
 			"settings":
 			{
-				"buffer_size": 860,
+				"buffer_size": 379,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/partials/prelegent_meetings/adam_pierzchala.jade",
+			"file": "app/partials/prelegent_meetings/marcin_grzejszczak.jade",
 			"settings":
 			{
-				"buffer_size": 91,
+				"buffer_size": 43,
 				"line_ending": "Unix"
 			}
 		},
@@ -351,7 +343,7 @@
 			"file": "app/partials/prelegents.jade",
 			"settings":
 			{
-				"buffer_size": 6423,
+				"buffer_size": 6696,
 				"line_ending": "Unix"
 			}
 		}
@@ -516,24 +508,27 @@
 	},
 	"file_history":
 	[
+		"/home/alien/programowanie/git_projects/jinkubator/app/partials/meeting/19.jade",
+		"/home/alien/programowanie/git_projects/jinkubator/app/partials/meeting/18.jade",
+		"/home/alien/programowanie/git_projects/jinkubator/app/partials/main_page_parts/about.jade",
+		"/home/alien/programowanie/git_projects/jinkubator/app/partials/main_page_parts/meetings.jade",
+		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegent/adam_pierzchala.jade",
+		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegent_meetings/adam_pierzchala.jade",
+		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegents.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/_public/partials/meeting/18.html",
 		"/home/alien/programowanie/git_projects/jinkubator/_public/partials/meeting/17.html",
 		"/home/alien/programowanie/git_projects/jinkubator/_public/partials/meeting/16.html",
-		"/home/alien/programowanie/git_projects/jinkubator/app/partials/meeting/18.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/_public/partials/meeting/17 (kopia).html",
 		"/home/alien/programowanie/git_projects/jinkubator/app/assets/partials/meeting/18.html",
-		"/home/alien/programowanie/git_projects/jinkubator/app/partials/main_page_parts/meetings.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegent_meetings/pawel_cesar_sanjuan_szklarz.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegent_meetings/dawid_kublik.jade",
 		"/home/alien/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
 		"/home/alien/programowanie/git_projects/jinkubator/app/partials/main_page_parts/partners.jade",
-		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegents.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegent/pawel_cesar_sanjuan_szklarz.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/app/partials/prelegent/dawid_kublik.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/app/partials/meeting/17.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/app/index.jade",
 		"/home/alien/programowanie/git_projects/jinkubator/app/app.coffee",
-		"/home/alien/programowanie/git_projects/jinkubator/app/partials/main_page_parts/about.jade",
 		"/home/alien/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/alien/programowanie/git_projects/jinkubator/scripts/deploy.sh",
 		"/home/alien/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
@@ -640,10 +635,7 @@
 		"/Users/krzysztofsiejkowski/Downloads/PSC-Interpelacje-kad3/Interpelacje/kadencja3/03-i0001-1/text_structure.xml",
 		"/Users/krzysztofsiejkowski/Downloads/PSC-Interpelacje-kad3/Interpelacje/kadencja3/03-i0504-1/text_structure.xml",
 		"/Volumes/Kingston/LOST.DIR/1904",
-		"/Users/krzysztofsiejkowski/AllegroProjects/mobile.ios.allegro/MobileSales/MobileSales/OffersFetchCoordinator/ActiveOffersFetchingCoordinatorBuilder.h",
-		"/Users/krzysztofsiejkowski/AllegroProjects/mobile.ios.allegro/MobileSales/MobileSales/EventBus/OffersFetchingNotifications/ActiveOffersFetchingNotification.h",
-		"/Users/krzysztofsiejkowski/AllegroProjects/mobile.ios.allegro/MobileSales/MobileSales/Graphics.h",
-		"/Users/krzysztofsiejkowski/Downloads/PSC-Posiedzenia-kad1/NKJP_structure.rng"
+		"/Users/krzysztofsiejkowski/AllegroProjects/mobile.ios.allegro/MobileSales/MobileSales/OffersFetchCoordinator/ActiveOffersFetchingCoordinatorBuilder.h"
 	],
 	"find":
 	{
@@ -754,7 +746,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -778,25 +770,25 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/partials/meeting/18.jade",
+					"file": "app/partials/main_page_parts/about.jade",
 					"settings":
 					{
-						"buffer_size": 1799,
+						"buffer_size": 3832,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								471,
-								471
+								1864,
+								1864
 							]
 						],
 						"settings":
@@ -804,51 +796,51 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/partials/main_page_parts/about.jade",
+					"file": "app/partials/main_page_parts/meetings.jade",
 					"settings":
 					{
-						"buffer_size": 3818,
+						"buffer_size": 5156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1983,
-								1983
+								670,
+								670
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.x": 20.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "app/partials/main_page_parts/meetings.jade",
+					"file": "app/partials/meeting/20.jade",
 					"settings":
 					{
-						"buffer_size": 4947,
+						"buffer_size": 1249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								662,
-								662
+								1231,
+								1231
 							]
 						],
 						"settings":
@@ -863,25 +855,25 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/partials/prelegent/adam_pierzchala.jade",
+					"file": "app/partials/prelegent/marcin_grzejszczak.jade",
 					"settings":
 					{
-						"buffer_size": 317,
+						"buffer_size": 379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								317,
-								317
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
-						"translation.x": 1935.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -889,18 +881,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/partials/meeting/19.jade",
+					"file": "app/partials/prelegent_meetings/marcin_grzejszczak.jade",
 					"settings":
 					{
-						"buffer_size": 860,
+						"buffer_size": 43,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								860,
-								860
+								30,
+								30
 							]
 						],
 						"settings":
@@ -915,44 +907,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "app/partials/prelegent_meetings/adam_pierzchala.jade",
-					"settings":
-					{
-						"buffer_size": 91,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "app/partials/prelegents.jade",
 					"settings":
 					{
-						"buffer_size": 6423,
+						"buffer_size": 6696,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								369,
-								369
+								2202,
+								2202
 							]
 						],
 						"settings":
@@ -960,7 +926,7 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
