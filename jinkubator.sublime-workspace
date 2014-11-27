@@ -319,7 +319,7 @@
 			"file": "app/partials/meeting/20.jade",
 			"settings":
 			{
-				"buffer_size": 1585,
+				"buffer_size": 1587,
 				"line_ending": "Unix"
 			}
 		},
@@ -359,7 +359,7 @@
 			"file": "app/partials/meeting/18.jade",
 			"settings":
 			{
-				"buffer_size": 2442,
+				"buffer_size": 2444,
 				"line_ending": "Unix"
 			}
 		}
@@ -762,7 +762,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -848,15 +848,15 @@
 					"file": "app/partials/meeting/20.jade",
 					"settings":
 					{
-						"buffer_size": 1585,
+						"buffer_size": 1587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								494,
-								494
+								429,
+								429
 							]
 						],
 						"settings":
@@ -978,15 +978,15 @@
 					"file": "app/partials/meeting/18.jade",
 					"settings":
 					{
-						"buffer_size": 2442,
+						"buffer_size": 2444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
+								344,
+								344
 							]
 						],
 						"settings":
