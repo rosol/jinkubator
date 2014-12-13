@@ -319,7 +319,7 @@
 			"file": "app/partials/meeting/20.jade",
 			"settings":
 			{
-				"buffer_size": 1587,
+				"buffer_size": 1588,
 				"line_ending": "Unix"
 			}
 		},
@@ -762,7 +762,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -848,23 +848,23 @@
 					"file": "app/partials/meeting/20.jade",
 					"settings":
 					{
-						"buffer_size": 1587,
+						"buffer_size": 1588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								666,
+								666
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
-						"translation.x": 92.0,
-						"translation.y": 13.0,
+						"translation.x": 398.0,
+						"translation.y": 79.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -985,15 +985,15 @@
 						"selection":
 						[
 							[
-								344,
-								344
+								399,
+								399
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
-						"translation.x": 144.0,
+						"translation.x": 357.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
