@@ -521,7 +521,7 @@ var buf = [];
 with (locals || {}) {
 var interp;
 var __indent = [];
-buf.push('\n<ul> \n  <li><a href="#/meeting/21">2. Git</a></li>\n</ul>');
+buf.push('\n<ul> \n  <li><a href="#/meeting/21">21. Git</a></li>\n</ul>');
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge) {
@@ -704,7 +704,7 @@ buf.push('<h4>Poprowadzone spotkania</h4>\n');
 buf.push.apply(buf, __indent);
 buf.push('<ul> \n  ');
 buf.push.apply(buf, __indent);
-buf.push('<li><a href="#/meeting/21">2. Git</a></li>\n');
+buf.push('<li><a href="#/meeting/21">21. Git</a></li>\n');
 buf.push.apply(buf, __indent);
 buf.push('</ul>');
 }
